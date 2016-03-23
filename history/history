@@ -1,0 +1,755 @@
+    1  sudo apt update && sudo apt upgrade -y
+    2  uname -a
+    3  sudo apt install qemu qemu-kvm libvirt-bin virt-manager -y
+    4  sudo su -
+    5  ls
+    6  ls -l
+    7  ls -l Descargas/
+    8  sudo cp -v Descargas/*.iso IMAGEs/.
+    9  su -
+   10  sudo su -
+   11  sudo apt update && sudo apt upgrade -y
+   12  cd Descargas/
+   13  ls
+   14  sudo apt-get install epoptes-client
+   15  chmod +x *.sh
+   16  sudo ./epoptes-sync.sh 
+   17  ping -c 3 server
+   18  ls
+   19  cd Descargas/
+   20  ls
+   21  clear
+   22  lsblk 
+   23  man lsblk 
+   24  lsblk -afi
+   25  lsblk -afid
+   26  lsblk -af
+   27  lsblk -if
+   28  clear
+   29  sudo parted -l
+   30  clear
+   31  sudo su -
+   32  htop 
+   33  su -
+   34  sudo su -
+   35  ls
+   36  sudo su-
+   37  sudo su -
+   38  ifconfig 
+   39  sudo tasksel
+   40  sudo su -
+   41  ls
+   42  cd Descargas/
+   43  ls
+   44  ssh sysadmin@192.168.50.222
+   45  clear
+   46  ls
+   47  scp firewall-001.sh sysadmin@192.168.50.222:/home/sysadmin/.
+   48  ssh-keygen -t rsa -b 4096
+   49  ssh sysadmin@192.168.50.222
+   50  clear
+   51  sudo su -
+   52  exit
+   53  clear
+   54  pwd
+   55  cat /etc/
+   56  cat /etc/issue
+   57  exit
+   58  clear
+   59  ifconfig
+   60  exit
+   61  sudo -s
+   62  clear
+   63  ps -a
+   64  clear
+   65  ps aux | less
+   66  clear
+   67  pstree | lees
+   68  ps tree | lees
+   69  clear
+   70  pstr 
+   71  pspstree
+   72  pstree
+   73  clear
+   74  pstree | less
+   75  ps aux | grep lig
+   76  ps aux | grep lig / less
+   77  ps aux | grep lig | less
+   78  clear
+   79  ps aux | grep lig | less
+   80  ps aux | grep lig
+   81  kill -0 810
+   82  kill  810
+   83  screen
+   84  clear
+   85  ls
+   86  pwd
+   87  clear
+   88  vim primerprograma.sh
+   89  apt-get install vim
+   90  clear
+   91  vim primerprograma.sh
+   92  apt-get install 
+   93  apt-get install screen
+   94  clear
+   95  vim primerprograma.sh
+   96  sh primerprograma.sh 
+   97  vim primerprograma.sh
+   98  sh primerprograma.sh 
+   99  env
+  100  vim env
+  101  printenv
+  102  sh primerprograma.sh 
+  103  vim primerprograma.sh
+  104  sh primerprograma.sh 
+  105  clear
+  106  cat env
+  107  printenv cat
+  108  cat printenv
+  109  clear
+  110  vim printenv
+  111  printenv
+  112  clear
+  113  printenv | vim
+  114  printenv | grep
+  115  printenv | grep p
+  116  clear
+  117  grep algo
+  118  clear
+  119  grep algo *
+  120  lss
+  121  clear
+  122  apt-get install lss
+  123  less 
+  124  less nohub.out
+  125  less primerprograma.sh 
+  126  clear
+  127  ls
+  128  mv primerprograma.sh documentos/
+  129  cd ..
+  130  cd sysadmin/
+  131  ls
+  132  mv primerprograma.sh ./clear
+  133  clear
+  134  ls
+  135  rm -r clear
+  136  clear
+  137  ls
+  138  clear
+  139  cd Documentos/
+  140  ls
+  141  clear
+  142  mkdir prueba [1 3]
+  143  ls
+  144  rm -r
+  145  rm -r *
+  146  clear
+  147  ls
+  148  mkdir prueba[1,3]
+  149  ls
+  150  rm prueba\[1\,3\]/
+  151  rm prueba\[1\,3\]
+  152  rm -r prueba\[1\,3\]
+  153  clear
+  154  mkdir prueba[1-3]
+  155  ls
+  156  rm -r prueba\[1-3\]/
+  157  clear
+  158  ls
+  159  mkdir prueba prueba[1,3}
+  160  ls
+  161  clear
+  162  rm -r *
+  163  ls
+  164  clear
+  165  echo esto es un $user
+  166  echo esto es un $users
+  167  "echo esto es un $user"
+  168  "echo esto es un $users"
+  169  printenv 
+  170  "echo esto es un $USER"
+  171  "echo esto es un $USERS"
+  172  "echo esto es un $USERNAME"
+  173  cclear
+  174  clear
+  175  el es " $USERNAME"
+  176  echo el es " $USERNAME"
+  177  echo el es "$USERNAME"
+  178  echo el es '$USERNAME'
+  179  clear
+  180  ps
+  181  ps | less
+  182  clear
+  183  cr /
+  184  cd /
+  185  clear
+  186  ps
+  187  sudo -s
+  188  ps aux | grep light
+  189  kill -9 24407
+  190  sudo kill -9 24407
+  191  clear
+  192  ps aux | grep light
+  193  kill -9 25588
+  194  ps aux | grep lignt
+  195  ps aux | grep light
+  196  clear
+  197  ps aux | grep light
+  198  kill -9 24417
+  199  sudo kill -9 24417
+  200  sudo -s
+  201  ps aux | grep light
+  202  kill -9 26386
+  203  kill -9 26368
+  204  ps aux | grep lignt
+  205  ps aux | grep light
+  206  clear
+  207  ps aux | grep light
+  208  exit
+  209  ps aux | grep light
+  210  sudo kill -9 26377 
+  211  ps aux | grep light
+  212  sudo kill -9 27139 
+  213  ps aux | less
+  214  pstree | less
+  215  clear
+  216  ls
+  217  clear
+  218  ifconfig
+  219  clear
+  220  top
+  221  clear
+  222  top
+  223  clear
+  224  top
+  225  clear
+  226  htop
+  227  jobs
+  228  clear
+  229  free
+  230  free -h
+  231  uptime
+  232  init 0
+  233  $SHELL
+  234  echo $SHELL
+  235  viclear
+  236  clear
+  237  vim .bashrc 
+  238  echo $BASH_VERSION
+  239  echo --version
+  240  echo nasdh --version
+  241  echo bash --version
+  242  echo bash--version
+  243  bash--version
+  244  bash --version
+  245  clear
+  246  echo $BASH_VERSION
+  247  bash --version
+  248  clear
+  249  ls
+  250  mkdir test
+  251  cd test/
+  252  vim test1.sh
+  253  cat test1.sh 
+  254  sh
+  255  clear
+  256  sh test1.sh 
+  257  vim test1.sh
+  258  sh test1.sh 
+  259  bash test1.sh 
+  260  clear
+  261  vim test1.sh
+  262  test1.sh
+  263  clear
+  264  cat test1.sh 
+  265  echo $SHELL_VERSION
+  266  $SHELL_VERSION
+  267  clear
+  268  echo $SHELL
+  269  echo $SHELL_VERSION
+  270  env
+  271  clear
+  272  printenv grepp SH
+  273  printenv | grepp SH
+  274  printenv | grep SH
+  275  echo $BASH_VERSION
+  276  clear
+  277  vim test1.sh
+  278  clear
+  279  sh test1.sh
+  280  vim test1.sh
+  281  echo $BASH_VERSION
+  282  vim test1.sh
+  283  bash test1.sh
+  284  sh test1.sh
+  285  clear
+  286  ls
+  287  chmod -x test1.sh 
+  288  ls
+  289  chmod -x test1.sh 
+  290  ls -ls
+  291  ls -lh
+  292  clear
+  293  chmod +x test1.sh
+  294  ls
+  295  dmesg
+  296  clear
+  297  lees dmesg
+  298  clear
+  299  dmesg less
+  300  clear
+  301  less dmesg 
+  302  dmesg grep p
+  303  dmesg | grep p
+  304  clear
+  305  dmesg | grep p less
+  306  dmesg | grep p | less
+  307  clear
+  308  dmesg | less
+  309  df
+  310  df -lh
+  311  df -l
+  312  clear
+  313  vim test1.sh 
+  314  sh test1.sh 
+  315  bash test1.sh 
+  316  clear
+  317  vim test1.sh 
+  318  ./test1.sh 
+  319  clear
+  320  ./test1.sh 
+  321  htop
+  322  ps aux
+  323  clear
+  324  vim test1.sh 
+  325  ./test1.sh 1 2 3
+  326  clear
+  327  ./test1.sh 1 2 3
+  328  vim test1.sh
+  329  ./test1.sh 1 2 3
+  330  ./test1.sh tengo mucho sueño
+  331  vim test1.sh
+  332  ./test1.sh tengo mucho sueño
+  333  vim test1.sh
+  334  ./test1.sh tengo mucho -sueño
+  335  ./test1.sh tengo mucho sueño
+  336  clear
+  337  ./test1.sh tengo mucho sueño
+  338  vim test1.sh
+  339  ./test1.sh tengo mucho sueño
+  340  vim test1.sh
+  341  ./test1.sh tengo mucho sueño
+  342  vim test1.sh
+  343  ./test1.sh tengo mucho sueño
+  344  clear
+  345  ls
+  346  cat test1.sh.err 
+  347  rm test1.sh.err 
+  348  ls
+  349  clear
+  350  touch archivo1.txt
+  351  ./test1.sh tengo mucho sueño
+  352  ls
+  353  cat test1.sh.err 
+  354  rm test1.sh.err 
+  355  ls
+  356  clear
+  357  cat test1.sh.err 
+  358  clear
+  359  vin test1.sh 
+  360  vim test1.sh 
+  361  ./test1.sh
+  362  vim test1.sh
+  363  clear
+  364  ls
+  365  vim test1.sh
+  366  mv archivo1.txt archivo.txt
+  367  rm archivo2.txt 
+  368  ls
+  369  clear
+  370  rm test1.sh.err 
+  371  ls
+  372  init 0
+  373  exit
+  374  vim tutor
+  375  clear
+  376  vim tuttor
+  377  vimtutor 
+  378  clear
+  379  sudo apt-get install git
+  380  clear
+  381  ls
+  382  $?
+  383  ls s
+  384  $?
+  385  clear
+  386  ls
+  387  clear
+  388  ls
+  389  cd Documentos/
+  390  ls
+  391  mkdir clase
+  392  cd clase
+  393  mkdir clase_bash_1
+  394  clear
+  395  cd clase_bash_1/
+  396  ls
+  397  clear
+  398  pwd
+  399  ls -la
+  400  init git
+  401  git init
+  402  clear
+  403  ls
+  404  pwd
+  405  ls -la
+  406  ls
+  407  clear
+  408  ls -la
+  409  cd ..
+  410  ls
+  411  rm -m clase
+  412  rm -r clase
+  413  clear
+  414  ls
+  415  pwd
+  416  mkdir clase1_bash
+  417  cd clase1_bash/
+  418  ls
+  419  pwd
+  420  git int
+  421  git init
+  422  clear
+  423  ls -la
+  424  ls -l
+  425  ls-a
+  426  clear
+  427  vim IFS.sh
+  428  /bin/bash ./IFS.sh
+  429  vim IFS.sh
+  430  /bin/bash ./IFS.sh
+  431  vim IFS.sh
+  432  clear
+  433  git status 
+  434  ls
+  435  wim .gitignore
+  436  vim .gitignore
+  437  ls
+  438  clear
+  439  vim .gitignore
+  440  ls -la
+  441  clear
+  442  ls
+  443  git status 
+  444  git add .gitignore 
+  445  git add IFS.sh 
+  446  git status 
+  447  ls
+  448  git commit -m "Inicio de Repositorio"
+  449  ls -la
+  450  clear
+  451  git config --global user.email "jorgemb15@hotmail.es"
+  452  git config --global user.name "Emanuel"
+  453  git config --global user.name "Jorge"
+  454  clear
+  455  git status
+  456  git commit -m "Inicio de Repositorio"
+  457  git log 
+  458  /bin/bash ./IFS.sh 
+  459  clear
+  460  /bin/bash ./IFS.sh 
+  461  env VAR2=123 VAR456 bash ./IFS.sh 
+  462  env VAR2=123 VAR456 bash IFS.sh 
+  463  env VAR2=123 VAR=456 bash IFS.sh 
+  464  env VAR2=123 VAR3=456 bash IFS.sh 
+  465  clear
+  466  env VAR2=123 VAR3=456 bash IFS.sh 
+  467  VAR1=132
+  468  VAR2=123
+  469  VAR3=456
+  470  export VAR2
+  471  export VAR3
+  472  bash ./IFS.sh 
+  473  clear
+  474  bash ./IFS.sh 
+  475  clear
+  476  bash ./IFS.sh 
+  477  git status 
+  478  git diff
+  479  git add IFS.sh 
+  480  git status 
+  481  clear
+  482  git status 
+  483  git commit -m "Ejemplo de paso de variables al sistema"
+  484  git log 
+  485  cat IFS.sh 
+  486  clear
+  487  cat IFS.sh 
+  488  bash SpecVar.sh 
+  489  clear
+  490  bash SpecVar.sh 
+  491  clear
+  492  bash SpecVar.sh 
+  493  clear
+  494  bash SpecVar.sh 
+  495  clear
+  496  bash SpecVar.sh 
+  497  clear
+  498  bash SpecVar.sh 
+  499  bash SpecVar.sh 1 2 3
+  500  clear
+  501  bash SpecVar.sh 1 2 3
+  502  bash SpecVar.sh a b c
+  503  clear
+  504  bash SpecVar.sh a b c
+  505  clear
+  506  bash SpecVar.sh a b c
+  507  ls
+  508  clear
+  509  ls
+  510  git status 
+  511  rm -r 0
+  512  clear
+  513  bash SpecVar.sh a b c
+  514  git add SpecVar.sh 
+  515  git commit -m ""
+  516  sudo update alternatives --config editor
+  517  sudo update-alternatives --config editor
+  518  clear
+  519  sudo apt-get install vim-nox 
+  520  clear
+  521  sudo update-alternatives --config editor
+  522  git commit 
+  523  git log
+  524  apt-get install gourse
+  525  sudo apt-get install gourse
+  526  clear
+  527  bash SpecVar.sh a b c
+  528  chown -x IFS.sh
+  529  bash IFS.sh
+  530  set | grep IFS
+  531  set | grep IFS less
+  532  set | grep IFS les
+  533  set | grep IFS lees
+  534  set | grep IFS less
+  535  clear
+  536  set less
+  537  ls
+  538  clear
+  539  IFS.sh less
+  540  less IFS.sh 
+  541  clear
+  542  bash IFS.sh
+  543  set | grep IFS | less
+  544  clear
+  545  bash IFS.sh
+  546  clear
+  547  bash IFS.sh
+  548  clear
+  549  bash IFS.sh
+  550  vim IFS.sh 
+  551  vim SpecVar.sh
+  552  exit
+  553  init 0
+  554  cd Descargas/
+  555  cd docs/src/
+  556  ls
+  557  clear
+  558  ls
+  559  exit
+  560  ls
+  561  bash case_ejemplo1.sh ubuntu
+  562  clear
+  563  bash case_ejemplo1.sh ubuntu
+  564  bash case_ejemplo1.sh Ubuntu
+  565  clear
+  566  bash case_ejemplo1.sh Ubuntu
+  567  chmod 750 case_ejemplo1.sh 
+  568  ls
+  569  clear
+  570  ./case_ejemplo1.sh 
+  571  ./case_ejemplo1.sh fedora
+  572  ./case_ejemplo1.sh debian
+  573  clear
+  574  ls
+  575  vimtutor 
+  576  vimtutor | grep cop
+  577  vimtutor | less
+  578  clear
+  579  tar .z 
+  580  tar -z 
+  581  tar -help
+  582  clear
+  583  tar --help
+  584  tar --help grep desc
+  585  clear
+  586  tar --help grep desc
+  587  tar --help | grep desc
+  588  clear
+  589  tar --help | grep desc
+  590  clear
+  591  tar -xzf /home/sysadmin/Descargas/docs.tar.gz
+  592  ls
+  593  cd Descargas/
+  594  ls
+  595  mkdir descomprimido
+  596  tar -xzf docs.tar.gz
+  597  ls
+  598  rm -r docs
+  599  tar -xzf docs.tar.gz docs/clear
+  600  clear
+  601  tar -xzf docs.tar.gz descomprimidos
+  602  ls
+  603  clear
+  604  ls
+  605  tar -xzf docs.tar.gz docs/clear
+  606  tar -xzf docs.tar.gz d
+  607  clear
+  608  tar -xzf docs.tar.gz
+  609  ls
+  610  cd docs/
+  611  ls
+  612  cd src/
+  613  ls
+  614  clear
+  615  ls
+  616  ls -la
+  617  clear
+  618  ls -la
+  619  ls -a
+  620  cd ..
+  621  ls -la
+  622  git status 
+  623  clear
+  624  cd ..
+  625  git status 
+  626  ls
+  627  clear
+  628  cd docs/
+  629  git status 
+  630  cd src/
+  631  git status 
+  632  ls
+  633  clear
+  634  ls
+  635  cd ..
+  636  mkdir jorge
+  637  ls
+  638  cd jorge/
+  639  vim case_ejemplo1.sh
+  640  git status 
+  641  cd ..
+  642  git status 
+  643  git add jorge/case_ejemplo1.sh 
+  644  git status 
+  645  clear
+  646  git status 
+  647  git commit -m "Ejemplo case 1"
+  648  git log
+  649  clear
+  650  git log
+  651  clear
+  652  git log
+  653  clear
+  654  vim case ejemplo2.sh
+  655  ls
+  656  cd jorge/
+  657  ls
+  658  clear
+  659  vim case_ejemplo2.sh
+  660  git status 
+  661  git add case_ejemplo2.sh 
+  662  git status 
+  663  git commit -m "Ejemplo 2 de correo electronico y case"
+  664  git log
+  665  clear
+  666  vim case_ejemplo2.sh
+  667  exit
+  668  df
+  669  df -l
+  670  clear
+  671  df -l
+  672  df
+  673  df | awk '{print $5}'
+  674  clear
+  675  df | awk '{print $5}'
+  676  df | awk '{print $5}' | grep use
+  677  df | awk '{print $5}' | grep usa
+  678  df | awk '{print $5}' | grep usados
+  679  clear
+  680  df | awk '{print $5}' | grep us
+  681  df | awk '{print $5}' | grep Us
+  682  clear
+  683  df | awk '{print $5}' | grep -v Us
+  684  clear
+  685  df | awk '{print $5}' | grep -v Us
+  686  df | awk '{print $5}' | grep -v Us | sort
+  687  df | awk '{print $5}' | grep -v Us | sort -n
+  688  clear
+  689  df | awk '{print $5}' | grep -v Us | sort -n
+  690  df | awk '{print $5}' | grep -v Us | sort -n | tall
+  691  clear
+  692  df | awk '{print $5}' | grep -v Us | sort -n | tail
+  693  df | awk '{print $5}' | grep -v Us | sort -n | head
+  694  df | awk '{print $5}' | grep -v Us | sort -n | tail -1
+  695  clear
+  696  df | awk '{print $5}' | grep -v Us | sort -n | tail -1
+  697  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d %
+  698  cut --help
+  699  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%"
+  700  clear
+  701  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" 1
+  702  cut --help
+  703  clear
+  704  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
+  705  clear
+  706  ps ax
+  707  ps ax | less
+  708  clear
+  709  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
+  710  clear
+  711  df
+  712  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
+  713  clear
+  714  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
+  715  chmod 750 case_ejemplo2.sh 
+  716  ./case_ejemplo2.sh
+  717  clera
+  718  clear
+  719  apt-get install mailutils
+  720  sudo apt-get install mailutils
+  721  clear
+  722  ./case_ejemplo2.sh
+  723  cat /var/spool/mail/sysadmin 
+  724  date
+  725  ./case_ejemplo2.sh
+  726  clear
+  727  ./case_ejemplo2.sh
+  728  exit
+  729  init 0.
+  730  init 0
+  731  cd Descargas/
+  732  ls
+  733  cd docs
+  734  ls
+  735  git log
+  736  clera
+  737  clear
+  738  ls
+  739  clear
+  740  git log
+  741  clear
+  742  history 
+  743  history less
+  744  clear
+  745  history ° less
+  746  history | less
+  747  clear
+  748  git remote add TareaNivel2 https://github.com/Jorgemb15/TareaLinuxN2.git
+  749  git push -u TareaNivel2 master 
+  750  git remote -v
+  751  clear
+  752  ls
+  753  mkdir history
+  754  cd history/
+  755  history > history
