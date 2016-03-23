@@ -728,28 +728,206 @@
   728  exit
   729  init 0.
   730  init 0
-  731  cd Descargas/
-  732  ls
-  733  cd docs
+  731  clear
+  732  tree 
+  733  cd hojasdeexcel/hojasdatos/
   734  ls
-  735  git log
-  736  clera
+  735  clear
+  736  xls2csv datos1.xls 
   737  clear
-  738  ls
+  738  celar
   739  clear
-  740  git log
-  741  clear
-  742  history 
-  743  history less
-  744  clear
-  745  history ° less
-  746  history | less
+  740  cd ..
+  741  tree 
+  742  cd src/
+  743  bash graficar.sh
+  744  ls
+  745  bash graficar.sh
+  746  cd ..
   747  clear
-  748  git remote add TareaNivel2 https://github.com/Jorgemb15/TareaLinuxN2.git
-  749  git push -u TareaNivel2 master 
-  750  git remote -v
+  748  tree
+  749  ls -l
+  750  for archivo in -l `ls -l` do echo archivo
   751  clear
-  752  ls
-  753  mkdir history
-  754  cd history/
-  755  history > history
+  752  tree
+  753* for archivo in `find ../ -name *.xls` do echo archivofind
+  754  clear
+  755  find -name "datos"
+  756  find ../.. -name "datos"
+  757  find ../.. -name "*datos*"
+  758  clear
+  759  find ../.. -name "*.xls"
+  760  clear
+  761  for arc in `find ../.. -name "*.xls"`
+  762  for arc in `find ../.. -name "*.xls"` do echo arc rof
+  763  clear
+  764  for arc in `find ../.. -name "*.xls"`; do echo arc;done
+  765  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
+  766  clear
+  767  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
+  768  for arc in `find ../.. -name "*.xls | file"`; do echo $arc;done
+  769  clear
+  770  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
+  771  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;done
+  772  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;doneclear; celar
+  773  clear
+  774  xls2csv clar
+  775  clear
+  776  ls
+  777  cd src/
+  778  bash grafico.sh
+  779  bash graficar.sh
+  780  clear
+  781  ls
+  782  bash graficar.sh 
+  783  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;doneclear; celar
+  784  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;doneclear
+  785  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;done
+  786  clear
+  787  for arc in `find ../.. -name "*.xls"`; do echo $arch;done
+  788  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
+  789  clear
+  790  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
+  791  clear
+  792  bash graficar.sh 
+  793  ls
+  794  vim error1.log 
+  795  clear
+  796  bash graficar.sh 
+  797  cd ..
+  798  tree 
+  799  bash graficar.sh 
+  800  ls
+  801  clear
+  802  tree 
+  803  cd src/
+  804  less error1.log 
+  805  clear
+  806  bash graficar.sh 
+  807  clear
+  808  bash graficar.sh 
+  809  clear
+  810  bash graficar.sh 
+  811  clear
+  812  bash graficar.sh 
+  813  clear
+  814  bash graficar.sh 
+  815  cd ..
+  816  tree 
+  817  cd hojasdatos/
+  818  cd datos_csv/
+  819  rm -r
+  820  rm -r *
+  821  clear
+  822  cd ..
+  823  ls
+  824  clear
+  825  less
+  826  clear
+  827  tree 
+  828  cd hojasdatos/
+  829  ls
+  830  clear
+  831  ls
+  832  cd datos_csv/
+  833  clear
+  834  cat
+  835  clear
+  836  ls
+  837  cat datos-1.scv  | awk -F "\",\"" {print $1 $2 $3 $4 $5}
+  838  cat datos-1.scv  | awk -F "\",\"" {print $1 $2 $3 $4 $5}"
+  839  clear
+  840  clearclear
+  841  clear
+  842  cat datos-1.scv  | awk -F "\",\"" {print $1 $2 $3 $4 $5}'
+  843  clear
+  844  cat datos-1.scv  | awk -F ?\",\"" {print $1 $2 $3 $4 $5}'
+  845  clear
+  846  cat datos-1.scv  | awk -F '\",\"" {print $1 $2 $3 $4 $5}'
+  847  clear
+  848  cat datos-1.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
+  849  clear
+  850  cat datos-1.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
+  851  clear
+  852  ls
+  853  rm -r *
+  854  ls
+  855  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
+  856  clear
+  857  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
+  858  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
+  859  clear
+  860  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
+  861  clear
+  862  tree 
+  863  cd ../..
+  864  clñear
+  865  tree 
+  866  clear
+  867  tree 
+  868  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
+  869  cd hojasdatos/datos_csv/
+  870  clear
+  871  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
+  872  clear
+  873  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
+  874  cd ..
+  875  cd h
+  876  cd datos_csv/
+  877  lcear
+  878  clear
+  879  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
+  880  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  881  clear
+  882  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  883  clear
+  884  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  885  clear
+  886  git status 
+  887  clear
+  888  git status 
+  889  git remote -v
+  890  git push -u TareaNivel2 master 
+  891  clear
+  892  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  893  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep 2
+  894  clear
+  895  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v sensor
+  896  clear
+  897  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
+  898  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
+  899  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
+  900  clear
+  901  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
+  902  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor
+  903  clear
+  904  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed `1,$ s/"//g`
+  905  clear
+  906  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g'
+  907  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' | head
+  908  clear
+  909  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g'
+  910  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' head
+  911  clear
+  912  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' | head
+  913  car datos-0.scv 
+  914  cat datos-0.scv 
+  915  clear
+  916  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' | head
+  917  clear
+  918  cd ../..
+  919  clear
+  920  ls
+  921  cd src/
+  922  bash graficar.sh 
+  923  vim graficar.sh 
+  924  clear
+  925  git status 
+  926  git add .
+  927  git status 
+  928  git commit -m "finalizacion de clase"
+  929  clear
+  930  cd ../..
+  931  ls
+  932  cd history/
+  933  history > history 
