@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Este script extrae archivos de excel y grafica Datos..
+	#  archivos de excel y grafica Datos creados..
 
 DATOS=../hojasdatos
 
