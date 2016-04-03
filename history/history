@@ -1,933 +1,1000 @@
-    1  sudo apt update && sudo apt upgrade -y
-    2  uname -a
-    3  sudo apt install qemu qemu-kvm libvirt-bin virt-manager -y
-    4  sudo su -
-    5  ls
-    6  ls -l
-    7  ls -l Descargas/
-    8  sudo cp -v Descargas/*.iso IMAGEs/.
-    9  su -
-   10  sudo su -
-   11  sudo apt update && sudo apt upgrade -y
-   12  cd Descargas/
-   13  ls
-   14  sudo apt-get install epoptes-client
-   15  chmod +x *.sh
-   16  sudo ./epoptes-sync.sh 
-   17  ping -c 3 server
-   18  ls
-   19  cd Descargas/
-   20  ls
-   21  clear
-   22  lsblk 
-   23  man lsblk 
-   24  lsblk -afi
-   25  lsblk -afid
-   26  lsblk -af
-   27  lsblk -if
-   28  clear
-   29  sudo parted -l
-   30  clear
-   31  sudo su -
-   32  htop 
-   33  su -
-   34  sudo su -
-   35  ls
-   36  sudo su-
-   37  sudo su -
-   38  ifconfig 
-   39  sudo tasksel
-   40  sudo su -
-   41  ls
-   42  cd Descargas/
-   43  ls
-   44  ssh sysadmin@192.168.50.222
-   45  clear
-   46  ls
-   47  scp firewall-001.sh sysadmin@192.168.50.222:/home/sysadmin/.
-   48  ssh-keygen -t rsa -b 4096
-   49  ssh sysadmin@192.168.50.222
-   50  clear
-   51  sudo su -
-   52  exit
-   53  clear
-   54  pwd
-   55  cat /etc/
-   56  cat /etc/issue
-   57  exit
-   58  clear
-   59  ifconfig
-   60  exit
-   61  sudo -s
-   62  clear
-   63  ps -a
-   64  clear
-   65  ps aux | less
-   66  clear
-   67  pstree | lees
-   68  ps tree | lees
-   69  clear
-   70  pstr 
-   71  pspstree
-   72  pstree
-   73  clear
-   74  pstree | less
-   75  ps aux | grep lig
-   76  ps aux | grep lig / less
-   77  ps aux | grep lig | less
-   78  clear
-   79  ps aux | grep lig | less
-   80  ps aux | grep lig
-   81  kill -0 810
-   82  kill  810
-   83  screen
-   84  clear
-   85  ls
-   86  pwd
-   87  clear
-   88  vim primerprograma.sh
-   89  apt-get install vim
-   90  clear
-   91  vim primerprograma.sh
-   92  apt-get install 
-   93  apt-get install screen
-   94  clear
-   95  vim primerprograma.sh
-   96  sh primerprograma.sh 
-   97  vim primerprograma.sh
-   98  sh primerprograma.sh 
-   99  env
-  100  vim env
-  101  printenv
-  102  sh primerprograma.sh 
-  103  vim primerprograma.sh
-  104  sh primerprograma.sh 
-  105  clear
-  106  cat env
-  107  printenv cat
-  108  cat printenv
-  109  clear
-  110  vim printenv
-  111  printenv
-  112  clear
-  113  printenv | vim
-  114  printenv | grep
-  115  printenv | grep p
-  116  clear
-  117  grep algo
-  118  clear
-  119  grep algo *
-  120  lss
-  121  clear
-  122  apt-get install lss
-  123  less 
-  124  less nohub.out
-  125  less primerprograma.sh 
-  126  clear
-  127  ls
-  128  mv primerprograma.sh documentos/
-  129  cd ..
-  130  cd sysadmin/
-  131  ls
-  132  mv primerprograma.sh ./clear
-  133  clear
-  134  ls
-  135  rm -r clear
-  136  clear
-  137  ls
-  138  clear
-  139  cd Documentos/
-  140  ls
-  141  clear
-  142  mkdir prueba [1 3]
-  143  ls
-  144  rm -r
-  145  rm -r *
-  146  clear
-  147  ls
-  148  mkdir prueba[1,3]
-  149  ls
-  150  rm prueba\[1\,3\]/
-  151  rm prueba\[1\,3\]
-  152  rm -r prueba\[1\,3\]
-  153  clear
-  154  mkdir prueba[1-3]
-  155  ls
-  156  rm -r prueba\[1-3\]/
-  157  clear
-  158  ls
-  159  mkdir prueba prueba[1,3}
-  160  ls
-  161  clear
-  162  rm -r *
-  163  ls
-  164  clear
-  165  echo esto es un $user
-  166  echo esto es un $users
-  167  "echo esto es un $user"
-  168  "echo esto es un $users"
-  169  printenv 
-  170  "echo esto es un $USER"
-  171  "echo esto es un $USERS"
-  172  "echo esto es un $USERNAME"
-  173  cclear
-  174  clear
-  175  el es " $USERNAME"
-  176  echo el es " $USERNAME"
-  177  echo el es "$USERNAME"
-  178  echo el es '$USERNAME'
-  179  clear
-  180  ps
-  181  ps | less
-  182  clear
-  183  cr /
-  184  cd /
-  185  clear
-  186  ps
-  187  sudo -s
-  188  ps aux | grep light
-  189  kill -9 24407
-  190  sudo kill -9 24407
-  191  clear
-  192  ps aux | grep light
-  193  kill -9 25588
-  194  ps aux | grep lignt
-  195  ps aux | grep light
-  196  clear
-  197  ps aux | grep light
-  198  kill -9 24417
-  199  sudo kill -9 24417
-  200  sudo -s
-  201  ps aux | grep light
-  202  kill -9 26386
-  203  kill -9 26368
-  204  ps aux | grep lignt
-  205  ps aux | grep light
-  206  clear
-  207  ps aux | grep light
-  208  exit
-  209  ps aux | grep light
-  210  sudo kill -9 26377 
-  211  ps aux | grep light
-  212  sudo kill -9 27139 
-  213  ps aux | less
-  214  pstree | less
-  215  clear
-  216  ls
-  217  clear
-  218  ifconfig
-  219  clear
-  220  top
-  221  clear
-  222  top
-  223  clear
-  224  top
-  225  clear
-  226  htop
-  227  jobs
-  228  clear
-  229  free
-  230  free -h
-  231  uptime
-  232  init 0
-  233  $SHELL
-  234  echo $SHELL
-  235  viclear
-  236  clear
-  237  vim .bashrc 
-  238  echo $BASH_VERSION
-  239  echo --version
-  240  echo nasdh --version
-  241  echo bash --version
-  242  echo bash--version
-  243  bash--version
-  244  bash --version
-  245  clear
-  246  echo $BASH_VERSION
-  247  bash --version
-  248  clear
-  249  ls
-  250  mkdir test
-  251  cd test/
-  252  vim test1.sh
-  253  cat test1.sh 
-  254  sh
-  255  clear
-  256  sh test1.sh 
-  257  vim test1.sh
-  258  sh test1.sh 
-  259  bash test1.sh 
-  260  clear
-  261  vim test1.sh
-  262  test1.sh
-  263  clear
-  264  cat test1.sh 
-  265  echo $SHELL_VERSION
-  266  $SHELL_VERSION
-  267  clear
-  268  echo $SHELL
-  269  echo $SHELL_VERSION
-  270  env
-  271  clear
-  272  printenv grepp SH
-  273  printenv | grepp SH
-  274  printenv | grep SH
-  275  echo $BASH_VERSION
-  276  clear
-  277  vim test1.sh
-  278  clear
-  279  sh test1.sh
-  280  vim test1.sh
-  281  echo $BASH_VERSION
-  282  vim test1.sh
-  283  bash test1.sh
-  284  sh test1.sh
-  285  clear
-  286  ls
-  287  chmod -x test1.sh 
-  288  ls
-  289  chmod -x test1.sh 
-  290  ls -ls
-  291  ls -lh
-  292  clear
-  293  chmod +x test1.sh
-  294  ls
-  295  dmesg
-  296  clear
-  297  lees dmesg
-  298  clear
-  299  dmesg less
-  300  clear
-  301  less dmesg 
-  302  dmesg grep p
-  303  dmesg | grep p
-  304  clear
-  305  dmesg | grep p less
-  306  dmesg | grep p | less
-  307  clear
-  308  dmesg | less
-  309  df
-  310  df -lh
-  311  df -l
-  312  clear
-  313  vim test1.sh 
-  314  sh test1.sh 
-  315  bash test1.sh 
-  316  clear
-  317  vim test1.sh 
-  318  ./test1.sh 
-  319  clear
-  320  ./test1.sh 
-  321  htop
-  322  ps aux
-  323  clear
-  324  vim test1.sh 
-  325  ./test1.sh 1 2 3
-  326  clear
-  327  ./test1.sh 1 2 3
-  328  vim test1.sh
-  329  ./test1.sh 1 2 3
-  330  ./test1.sh tengo mucho sueño
-  331  vim test1.sh
-  332  ./test1.sh tengo mucho sueño
-  333  vim test1.sh
-  334  ./test1.sh tengo mucho -sueño
-  335  ./test1.sh tengo mucho sueño
-  336  clear
-  337  ./test1.sh tengo mucho sueño
-  338  vim test1.sh
-  339  ./test1.sh tengo mucho sueño
-  340  vim test1.sh
-  341  ./test1.sh tengo mucho sueño
-  342  vim test1.sh
-  343  ./test1.sh tengo mucho sueño
-  344  clear
-  345  ls
-  346  cat test1.sh.err 
-  347  rm test1.sh.err 
-  348  ls
-  349  clear
-  350  touch archivo1.txt
-  351  ./test1.sh tengo mucho sueño
-  352  ls
-  353  cat test1.sh.err 
-  354  rm test1.sh.err 
-  355  ls
-  356  clear
-  357  cat test1.sh.err 
-  358  clear
-  359  vin test1.sh 
-  360  vim test1.sh 
-  361  ./test1.sh
-  362  vim test1.sh
-  363  clear
-  364  ls
-  365  vim test1.sh
-  366  mv archivo1.txt archivo.txt
-  367  rm archivo2.txt 
-  368  ls
-  369  clear
-  370  rm test1.sh.err 
-  371  ls
-  372  init 0
-  373  exit
-  374  vim tutor
-  375  clear
-  376  vim tuttor
-  377  vimtutor 
+  374  clear
+  375  git remote -v
+  376  clear
+  377  git push ProyectoFinal proyecto_programado
   378  clear
-  379  sudo apt-get install git
-  380  clear
-  381  ls
-  382  $?
-  383  ls s
-  384  $?
-  385  clear
-  386  ls
-  387  clear
+  379  git status 
+  380  cd hojasdeexcel/hojasdatos/datos_csv/
+  381  clear
+  382  ls
+  383  git rm -r *
+  384  clear
+  385  ls
+  386  git status 
+  387  cd ..
   388  ls
-  389  cd Documentos/
-  390  ls
-  391  mkdir clase
-  392  cd clase
-  393  mkdir clase_bash_1
-  394  clear
-  395  cd clase_bash_1/
-  396  ls
-  397  clear
-  398  pwd
-  399  ls -la
-  400  init git
-  401  git init
+  389  git status 
+  390  git pull ProyectoFinal proyecto_programado 
+  391  ls
+  392  git pull ProyectoFinal
+  393  git pull ProyectoFinal/master
+  394  git pull ProyectoFinal master
+  395  clear
+  396  git pull ProyectoFinal
+  397  ls
+  398  git pull ProyectoFinal master 
+  399  git pull ProyectoFinal master master 
+  400  ls
+  401  git pull ProyectoFinal
   402  clear
-  403  ls
-  404  pwd
-  405  ls -la
+  403  git pull ProyectoFinal
+  404  ls
+  405  git checkout master 
   406  ls
-  407  clear
-  408  ls -la
-  409  cd ..
-  410  ls
-  411  rm -m clase
-  412  rm -r clase
-  413  clear
-  414  ls
-  415  pwd
-  416  mkdir clase1_bash
-  417  cd clase1_bash/
-  418  ls
-  419  pwd
-  420  git int
-  421  git init
-  422  clear
-  423  ls -la
-  424  ls -l
-  425  ls-a
-  426  clear
-  427  vim IFS.sh
-  428  /bin/bash ./IFS.sh
-  429  vim IFS.sh
-  430  /bin/bash ./IFS.sh
-  431  vim IFS.sh
-  432  clear
+  407  git checkout master *
+  408  ls
+  409  clear
+  410  git fetch ProyectoFinal 
+  411  ls
+  412  git fetch ProyectoFinal master:master 
+  413  git fetch ProyectoFinal master
+  414  clear
+  415  ls
+  416  git fetch ProyectoFinal 
+  417  clear
+  418  git reset --hard ProyectoFinal/master 
+  419  ls
+  420  cd datos_csv/
+  421  ls
+  422  git status 
+  423  cd ..
+  424  cd,
+  425  cd ..
+  426  ls
+  427  clear
+  428  git status 
+  429  git reset --hard ProyectoFinal/proyecto_programado 
+  430  tree 
+  431  clear
+  432  rm -r hojasdeexcel/
   433  git status 
-  434  ls
-  435  wim .gitignore
-  436  vim .gitignore
-  437  ls
+  434  git fetch ProyectoFinal 
+  435  clear
+  436  git reset --hard ProyectoFinal/proyecto_programado 
+  437  tree 
   438  clear
-  439  vim .gitignore
-  440  ls -la
-  441  clear
-  442  ls
-  443  git status 
-  444  git add .gitignore 
-  445  git add IFS.sh 
-  446  git status 
-  447  ls
-  448  git commit -m "Inicio de Repositorio"
-  449  ls -la
-  450  clear
-  451  git config --global user.email "jorgemb15@hotmail.es"
-  452  git config --global user.name "Emanuel"
-  453  git config --global user.name "Jorge"
+  439  rm -r hojasdeexcel/
+  440  tree 
+  441  git reset --hard ProyectoFinal/proyecto_programado 
+  442  tree 
+  443  clear
+  444  git status 
+  445  cd ..
+  446  cd TareaLinuxN2/
+  447  cledar
+  448  clear
+  449  cd hojasdeexcel/
+  450  cd src/
+  451  cd ../../..
+  452  ls
+  453  cd TareaLinuxN2/
   454  clear
-  455  git status
-  456  git commit -m "Inicio de Repositorio"
-  457  git log 
-  458  /bin/bash ./IFS.sh 
-  459  clear
-  460  /bin/bash ./IFS.sh 
-  461  env VAR2=123 VAR456 bash ./IFS.sh 
-  462  env VAR2=123 VAR456 bash IFS.sh 
-  463  env VAR2=123 VAR=456 bash IFS.sh 
-  464  env VAR2=123 VAR3=456 bash IFS.sh 
-  465  clear
-  466  env VAR2=123 VAR3=456 bash IFS.sh 
-  467  VAR1=132
-  468  VAR2=123
-  469  VAR3=456
-  470  export VAR2
-  471  export VAR3
-  472  bash ./IFS.sh 
-  473  clear
-  474  bash ./IFS.sh 
-  475  clear
-  476  bash ./IFS.sh 
-  477  git status 
-  478  git diff
-  479  git add IFS.sh 
-  480  git status 
-  481  clear
-  482  git status 
-  483  git commit -m "Ejemplo de paso de variables al sistema"
-  484  git log 
-  485  cat IFS.sh 
-  486  clear
-  487  cat IFS.sh 
-  488  bash SpecVar.sh 
-  489  clear
-  490  bash SpecVar.sh 
-  491  clear
-  492  bash SpecVar.sh 
-  493  clear
-  494  bash SpecVar.sh 
-  495  clear
-  496  bash SpecVar.sh 
-  497  clear
-  498  bash SpecVar.sh 
-  499  bash SpecVar.sh 1 2 3
+  455  ls
+  456  cd hojasdeexcel/
+  457  cd src/
+  458  clear
+  459  ls
+  460  less error
+  461  less error1.log 
+  462  clear
+  463  bash ./graficar.sh 
+  464  less error1.log 
+  465  cd ..
+  466  cd hojasdatos/datos_csv/
+  467  less datos-0.out 
+  468  clear
+  469  git status 
+  470  git checkout proyecto_programado 
+  471  git status 
+  472  clear
+  473  git add *
+  474  clear
+  475  git status 
+  476  clear
+  477  git commit -m "arreglo de hojas excel\"
+  478  git commit -m "arreglo de hojas excel"
+  479  clear
+  480  git commit -m "arreglo de hojas excel"
+  481  git config --global user.email "jorgemb15@hotmail.es"
+  482  git config --global user.name "Jorge Barrantes"
+  483  clear
+  484  git commit -m "arreglo de hojas excel"
+  485  clear
+  486  git status 
+  487  git branch 
+  488  clear
+  489  git status 
+  490  git add *
+  491  git commit -m "arreglo de hojas excel final"
+  492  clear
+  493  git add *
+  494  git status 
+  495  cd ../../src/
+  496  ls
+  497  git add *
+  498  git stat
+  499  git status 
   500  clear
-  501  bash SpecVar.sh 1 2 3
-  502  bash SpecVar.sh a b c
-  503  clear
-  504  bash SpecVar.sh a b c
+  501  git commit -m "arreglo de hojas excel final"
+  502  clear
+  503  git status 
+  504  git push ProyectoFinal proyecto_programado 
   505  clear
-  506  bash SpecVar.sh a b c
-  507  ls
+  506  gis stat
+  507  git status 
   508  clear
-  509  ls
-  510  git status 
-  511  rm -r 0
-  512  clear
-  513  bash SpecVar.sh a b c
-  514  git add SpecVar.sh 
-  515  git commit -m ""
-  516  sudo update alternatives --config editor
-  517  sudo update-alternatives --config editor
+  509  git status 
+  510  git branch 
+  511  git merge
+  512  git merge proyecto_programado 
+  513  clear
+  514  git merge proyecto_programado 
+  515  git checkout master 
+  516  git merge proyecto_programado 
+  517  git status 
   518  clear
-  519  sudo apt-get install vim-nox 
-  520  clear
-  521  sudo update-alternatives --config editor
-  522  git commit 
-  523  git log
-  524  apt-get install gourse
-  525  sudo apt-get install gourse
-  526  clear
-  527  bash SpecVar.sh a b c
-  528  chown -x IFS.sh
-  529  bash IFS.sh
-  530  set | grep IFS
-  531  set | grep IFS less
-  532  set | grep IFS les
-  533  set | grep IFS lees
-  534  set | grep IFS less
-  535  clear
-  536  set less
-  537  ls
+  519  git checkout proyecto_programado 
+  520  ls
+  521  vim graficar.sh 
+  522  clear
+  523  ls
+  524  git branch 
+  525  git status 
+  526  git add graficar.sh 
+  527  git status 
+  528  git commit 
+  529  clear
+  530  git status 
+  531  git commit -m "prueba de branch"
+  532  git status 
+  533  git branch master 
+  534  git status 
+  535  git branch master 
+  536  git checkout master 
+  537  git status 
   538  clear
-  539  IFS.sh less
-  540  less IFS.sh 
+  539  git branch 
+  540  git status 
   541  clear
-  542  bash IFS.sh
-  543  set | grep IFS | less
-  544  clear
-  545  bash IFS.sh
-  546  clear
-  547  bash IFS.sh
-  548  clear
-  549  bash IFS.sh
-  550  vim IFS.sh 
-  551  vim SpecVar.sh
-  552  exit
-  553  init 0
-  554  cd Descargas/
-  555  cd docs/src/
-  556  ls
-  557  clear
-  558  ls
-  559  exit
+  542  git branch 
+  543  git push 
+  544  git push ProyectoFinal 
+  545  clear
+  546  git push ProyectoFinal master 
+  547  clear
+  548  cd ..
+  549  cd ,,/..
+  550  clear
+  551  cd ../..
+  552  cd TareaLinuxN2/
+  553  clear
+  554  ls
+  555  clear
+  556  tree 
+  557  cd ..
+  558  clear
+  559  tree 
   560  ls
-  561  bash case_ejemplo1.sh ubuntu
-  562  clear
-  563  bash case_ejemplo1.sh ubuntu
-  564  bash case_ejemplo1.sh Ubuntu
-  565  clear
-  566  bash case_ejemplo1.sh Ubuntu
-  567  chmod 750 case_ejemplo1.sh 
-  568  ls
-  569  clear
-  570  ./case_ejemplo1.sh 
-  571  ./case_ejemplo1.sh fedora
-  572  ./case_ejemplo1.sh debian
+  561  clear
+  562  cd TareaLinuxN2/
+  563  tree 
+  564  clear
+  565  git checkout proyecto_programado 
+  566  clear
+  567  ls
+  568  clear
+  569  tree 
+  570  clear
+  571  pwd
+  572  clera
   573  clear
-  574  ls
-  575  vimtutor 
-  576  vimtutor | grep cop
-  577  vimtutor | less
+  574  cd hojasdeexcel/hojasdatos/
+  575  clear
+  576  cd datos_csv/
+  577  ls
   578  clear
-  579  tar .z 
-  580  tar -z 
-  581  tar -help
-  582  clear
-  583  tar --help
-  584  tar --help grep desc
+  579  sudo apt-get install gnuplot
+  580  clear
+  581  bash ./grafic
+  582  bash ./grafic.sh
+  583  clear
+  584  bash ./graficar.sh
   585  clear
-  586  tar --help grep desc
-  587  tar --help | grep desc
-  588  clear
-  589  tar --help | grep desc
-  590  clear
-  591  tar -xzf /home/sysadmin/Descargas/docs.tar.gz
-  592  ls
-  593  cd Descargas/
+  586  bash ./graficar.sh
+  587  gnuplot 
+  588  gnuplot --elp
+  589  clear
+  590  bash ./graficar.sh
+  591  vim graficar.sh 
+  592  cd ..
+  593  cd src/
   594  ls
-  595  mkdir descomprimido
-  596  tar -xzf docs.tar.gz
-  597  ls
-  598  rm -r docs
-  599  tar -xzf docs.tar.gz docs/clear
-  600  clear
-  601  tar -xzf docs.tar.gz descomprimidos
-  602  ls
+  595  vim IFS.sh
+  596  vim caseExm1.sh 
+  597  vim caseExm2.sh 
+  598  vim case_InitScript.sh 
+  599  cd ..
+  600  cd hojasdeexcel/src/
+  601  vim graficar.sh 
+  602  cd ../..
   603  clear
   604  ls
-  605  tar -xzf docs.tar.gz docs/clear
-  606  tar -xzf docs.tar.gz d
-  607  clear
-  608  tar -xzf docs.tar.gz
+  605  cd jorge/
+  606  vim case_ejemplo
+  607  ls
+  608  rm case_ejemplo
   609  ls
-  610  cd docs/
-  611  ls
-  612  cd src/
+  610  clear
+  611  less case_ejemplo1.sh 
+  612  less case_ejemplo2.sh 
   613  ls
-  614  clear
-  615  ls
-  616  ls -la
-  617  clear
-  618  ls -la
-  619  ls -a
-  620  cd ..
-  621  ls -la
-  622  git status 
-  623  clear
-  624  cd ..
-  625  git status 
-  626  ls
+  614  cd ..
+  615  clear
+  616  ls
+  617  vim SpecVar.sh 
+  618  cd ../hojasdeexcel/src/
+  619  vim graficar.sh 
+  620  pwd
+  621  ls
+  622  cd Documents/
+  623  ls
+  624  clear
+  625  cd P
+  626  cd Proyecto/
   627  clear
-  628  cd docs/
-  629  git status 
-  630  cd src/
-  631  git status 
-  632  ls
+  628  ls
+  629  cd TareaLinuxN2/
+  630  ls
+  631  cd hojasdeexcel/
+  632  cd src/
   633  clear
   634  ls
-  635  cd ..
-  636  mkdir jorge
-  637  ls
-  638  cd jorge/
-  639  vim case_ejemplo1.sh
-  640  git status 
-  641  cd ..
-  642  git status 
-  643  git add jorge/case_ejemplo1.sh 
-  644  git status 
-  645  clear
-  646  git status 
-  647  git commit -m "Ejemplo case 1"
-  648  git log
-  649  clear
-  650  git log
+  635  vim graficar.sh 
+  636  clear
+  637  vim graficar.sh 
+  638  bash ./graficar.sh 
+  639  clear
+  640  less error3.log 
+  641  less error4.log 
+  642  vim graficar.sh 
+  643  bash ./graficar.sh 
+  644  clear
+  645  vim graficar.sh 
+  646  cd ..
+  647  ls
+  648  tree 
+  649  cd hojasdeexcel/
+  650  cd src/
   651  clear
-  652  git log
-  653  clear
-  654  vim case ejemplo2.sh
-  655  ls
-  656  cd jorge/
-  657  ls
-  658  clear
-  659  vim case_ejemplo2.sh
-  660  git status 
-  661  git add case_ejemplo2.sh 
-  662  git status 
-  663  git commit -m "Ejemplo 2 de correo electronico y case"
-  664  git log
+  652  vim graficar.sh 
+  653  bash ./graficar.sh 
+  654  clear
+  655  tree 
+  656  tree ../../
+  657  clear
+  658  vim graficar.sh 
+  659  sed
+  660  clear
+  661  sed ../hojasdatos/datos
+  662  sed '1k' ../hojasdatos/datos_csv/datos-0.out 
+  663  sed '1k' ../hojasdatos/datos_csv/datos-0.out
+  664  sed '1d' ../hojasdatos/datos_csv/datos-0.out
   665  clear
-  666  vim case_ejemplo2.sh
-  667  exit
-  668  df
-  669  df -l
-  670  clear
-  671  df -l
-  672  df
-  673  df | awk '{print $5}'
+  666  sed '1d' ../hojasdatos/dat
+  667  clear
+  668  sed '1d' ../hojasdatos/datos_csv/datos-0.out
+  669  clear
+  670  vim graficar.sh 
+  671  bash ./graficar.sh 
+  672  tree ../../
+  673  bash ./graficar.sh 
   674  clear
-  675  df | awk '{print $5}'
-  676  df | awk '{print $5}' | grep use
-  677  df | awk '{print $5}' | grep usa
-  678  df | awk '{print $5}' | grep usados
+  675  bash ./graficar.sh 
+  676  vim graficar.sh 
+  677  clear
+  678  rm ../hojasdatos/datos_csv/graficar.dat 
   679  clear
-  680  df | awk '{print $5}' | grep us
-  681  df | awk '{print $5}' | grep Us
+  680  vim graficar.sh 
+  681  bashm ./graficar.sh 
   682  clear
-  683  df | awk '{print $5}' | grep -v Us
+  683  bash ./graficar.sh 
   684  clear
-  685  df | awk '{print $5}' | grep -v Us
-  686  df | awk '{print $5}' | grep -v Us | sort
-  687  df | awk '{print $5}' | grep -v Us | sort -n
-  688  clear
-  689  df | awk '{print $5}' | grep -v Us | sort -n
-  690  df | awk '{print $5}' | grep -v Us | sort -n | tall
-  691  clear
-  692  df | awk '{print $5}' | grep -v Us | sort -n | tail
-  693  df | awk '{print $5}' | grep -v Us | sort -n | head
-  694  df | awk '{print $5}' | grep -v Us | sort -n | tail -1
-  695  clear
-  696  df | awk '{print $5}' | grep -v Us | sort -n | tail -1
-  697  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d %
-  698  cut --help
-  699  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%"
-  700  clear
-  701  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" 1
-  702  cut --help
-  703  clear
-  704  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
-  705  clear
-  706  ps ax
-  707  ps ax | less
-  708  clear
-  709  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
-  710  clear
-  711  df
-  712  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
-  713  clear
-  714  df | awk '{print $5}' | grep -v Us | sort -n | tail -1 | cut -d "%" -f 1
-  715  chmod 750 case_ejemplo2.sh 
-  716  ./case_ejemplo2.sh
-  717  clera
-  718  clear
-  719  apt-get install mailutils
-  720  sudo apt-get install mailutils
+  685  bash ./graficar.sh 
+  686  less ../hojasdatos/datos_csv/grafico.dat 
+  687  clear
+  688  less ../hojasdatos/datos_csv/grafico.dat 
+  689  sudo apt-get install gnuplot
+  690  clear
+  691  vim graficar.sh 
+  692  bash ./graficar.sh 
+  693  vim graficar.sh 
+  694  clear
+  695  bash ./graficar.sh 
+  696  clear
+  697  vim ./graficar.sh 
+  698  clear
+  699  bash ./graficar.sh 
+  700  vim ./graficar.sh 
+  701  bash ./graficar.sh 
+  702  vim ./graficar.sh 
+  703  bash ./graficar.sh 
+  704  vim ./graficar.sh 
+  705  bash ./graficar.sh 
+  706  vim ./graficar.sh 
+  707  bash ./graficar.sh 
+  708  vim ./graficar.sh 
+  709  bash ./graficar.sh 
+  710  vim ./graficar.sh 
+  711  clera
+  712  clear
+  713  less ../hojasdatos/datos_csv/datos-0.out 
+  714  clear
+  715  cat ../hojasdatos/datos_csv/datos-0.out 
+  716  cat ../hojasdatos/datos_csv/datos-0.csv 
+  717  clear
+  718  cat ../hojasdatos/datos_csv/datos-0.csv | awk -F "/",/"" '{print $1 " " $2 " " $3 " " $4 " " $5}'[B
+  719  clear
+  720  cat ../hojasdatos/datos_csv/datos-0.csv | awk -F "/",/"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g'
   721  clear
-  722  ./case_ejemplo2.sh
-  723  cat /var/spool/mail/sysadmin 
-  724  date
-  725  ./case_ejemplo2.sh
-  726  clear
-  727  ./case_ejemplo2.sh
-  728  exit
-  729  init 0.
-  730  init 0
-  731  clear
-  732  tree 
-  733  cd hojasdeexcel/hojasdatos/
-  734  ls
+  722  cat ../hojasdatos/datos_csv/datos-0.csv | awk -F "/",/"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1 s/date/#date/g'
+  723  clear
+  724  vim ./graficar.sh 
+  725  clear
+  726  bash ./graficar.sh 
+  727  cleqar
+  728  clear
+  729  vim ./graficar.sh 
+  730  bash ./graficar.sh 
+  731  vim ./graficar.sh 
+  732  clear
+  733  cd ../..
+  734  git status 
   735  clear
-  736  xls2csv datos1.xls 
-  737  clear
-  738  celar
-  739  clear
-  740  cd ..
-  741  tree 
-  742  cd src/
-  743  bash graficar.sh
-  744  ls
-  745  bash graficar.sh
-  746  cd ..
-  747  clear
-  748  tree
-  749  ls -l
-  750  for archivo in -l `ls -l` do echo archivo
+  736  bash ./graficar.sh 
+  737  cd hojasdeexcel/
+  738  cd src/
+  739  bash ./graficar.sh 
+  740  clear
+  741  vim ./graficar.sh 
+  742  clear
+  743  cd ../..
+  744  clear
+  745  git status 
+  746  git branch 
+  747  git add *
+  748  git status 
+  749  git commit -m "script de graficar hojas de excel listo"
+  750  git status 
   751  clear
-  752  tree
-  753* for archivo in `find ../ -name *.xls` do echo archivofind
-  754  clear
-  755  find -name "datos"
-  756  find ../.. -name "datos"
-  757  find ../.. -name "*datos*"
-  758  clear
-  759  find ../.. -name "*.xls"
-  760  clear
-  761  for arc in `find ../.. -name "*.xls"`
-  762  for arc in `find ../.. -name "*.xls"` do echo arc rof
+  752  git push ProyectoFinal 
+  753  clear
+  754  git push ProyectoFinal 
+  755  clear
+  756  ls
+  757  cd jorge/
+  758  ls
+  759  cd ..
+  760  ls
+  761  cd src/
+  762  ls
   763  clear
-  764  for arc in `find ../.. -name "*.xls"`; do echo arc;done
-  765  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
+  764  ls
+  765  cd ..
   766  clear
-  767  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
-  768  for arc in `find ../.. -name "*.xls | file"`; do echo $arc;done
-  769  clear
-  770  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
-  771  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;done
-  772  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;doneclear; celar
+  767  ls
+  768  clear
+  769  mkdir problema2
+  770  mkdir problema3
+  771  clear
+  772  ls
   773  clear
-  774  xls2csv clar
+  774  cd problema2
   775  clear
   776  ls
-  777  cd src/
-  778  bash grafico.sh
-  779  bash graficar.sh
-  780  clear
-  781  ls
-  782  bash graficar.sh 
-  783  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;doneclear; celar
-  784  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;doneclear
-  785  for arc in `find ../.. -name "*.xls"`; do echo `file $arc`;done
+  777  clear
+  778  cd ..
+  779  clear
+  780  tree 
+  781  clear
+  782  tree 
+  783  clear
+  784  cd ../..
+  785  cd ..
   786  clear
-  787  for arc in `find ../.. -name "*.xls"`; do echo $arch;done
-  788  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
-  789  clear
-  790  for arc in `find ../.. -name "*.xls"`; do echo $arc;done
-  791  clear
-  792  bash graficar.sh 
-  793  ls
-  794  vim error1.log 
-  795  clear
-  796  bash graficar.sh 
-  797  cd ..
-  798  tree 
-  799  bash graficar.sh 
-  800  ls
-  801  clear
-  802  tree 
-  803  cd src/
-  804  less error1.log 
+  787  ls
+  788  clear
+  789  cd Downloads/
+  790  ls
+  791  cd proyectoFinal/
+  792  ls
+  793  cd problema2
+  794  ls
+  795  cd ..
+  796  clear
+  797  cp problema2 ../../Documents/Proyecto/TareaLinuxN2/problema2
+  798  cp problema2 ../../Documents/Proyecto/TareaLinuxN2/
+  799  cp -r problema2 ../../Documents/Proyecto/TareaLinuxN2/
+  800  ls problema2 ../../Documents/Proyecto/TareaLinuxN2/
+  801  ls problema2 ../../Documents/Proyecto/TareaLinuxN2/problema2/
+  802  cp -r problema3 ../../Documents/Proyecto/TareaLinuxN2/
+  803  cd ..
+  804  cd ../..
   805  clear
-  806  bash graficar.sh 
+  806  cd jorge/
   807  clear
-  808  bash graficar.sh 
+  808  cd Documents/Proyecto/TareaLinuxN2/
   809  clear
-  810  bash graficar.sh 
-  811  clear
-  812  bash graficar.sh 
+  810  ls
+  811  cd src/
+  812  ls
   813  clear
-  814  bash graficar.sh 
-  815  cd ..
-  816  tree 
-  817  cd hojasdatos/
-  818  cd datos_csv/
-  819  rm -r
-  820  rm -r *
-  821  clear
-  822  cd ..
-  823  ls
+  814  vim problema2.sh
+  815  vim caseExm1.sh 
+  816  vim problema2.sh
+  817  bash ./problema2.sh
+  818  vim problema2.sh
+  819  bash ./problema2.sh
+  820  vim problema2.sh
+  821  bash ./problema2.sh
+  822  vim problema2.sh
+  823  bash ./problema2.sh
   824  clear
-  825  less
-  826  clear
-  827  tree 
-  828  cd hojasdatos/
+  825  vim problema2.sh
+  826  bash ./problema2.sh
+  827  clear
+  828  vim clear
   829  ls
   830  clear
-  831  ls
-  832  cd datos_csv/
-  833  clear
-  834  cat
+  831  cd ..
+  832  clear
+  833  ls
+  834  cd problema2
   835  clear
-  836  ls
-  837  cat datos-1.scv  | awk -F "\",\"" {print $1 $2 $3 $4 $5}
-  838  cat datos-1.scv  | awk -F "\",\"" {print $1 $2 $3 $4 $5}"
+  836  vim clear
+  837  cd ..
+  838  cd src/
   839  clear
-  840  clearclear
-  841  clear
-  842  cat datos-1.scv  | awk -F "\",\"" {print $1 $2 $3 $4 $5}'
-  843  clear
-  844  cat datos-1.scv  | awk -F ?\",\"" {print $1 $2 $3 $4 $5}'
+  840  bash ./problema2.sh
+  841  vim ./problema2.sh
+  842  bash ./problema2.sh
+  843  vim ./problema2.sh
+  844  bash ./problema2.sh
   845  clear
-  846  cat datos-1.scv  | awk -F '\",\"" {print $1 $2 $3 $4 $5}'
-  847  clear
-  848  cat datos-1.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
-  849  clear
-  850  cat datos-1.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
+  846  bash ./problema2.sh
+  847  vim ./problema2.sh
+  848  bash ./problema2.sh
+  849  vim ./problema2.sh
+  850  bash ./problema2.sh
   851  clear
-  852  ls
-  853  rm -r *
-  854  ls
-  855  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
+  852  vim ./problema2.sh
+  853  bash ./problema2.sh
+  854  vim ./problema2.sh
+  855  bash ./problema2.sh
   856  clear
-  857  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}'
-  858  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
-  859  clear
-  860  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
-  861  clear
-  862  tree 
-  863  cd ../..
-  864  clñear
-  865  tree 
-  866  clear
-  867  tree 
-  868  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
-  869  cd hojasdatos/datos_csv/
-  870  clear
-  871  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
+  857  vim ./problema2.sh
+  858  bash ./problema2.sh
+  859  vim ./problema2.sh
+  860  bash ./problema2.sh
+  861  vim ./problema2.sh
+  862  bash ./problema2.sh
+  863  vim ./problema2.sh
+  864  cut "prueba de fuego" -d " "
+  865  clear
+  866  cut "prueba de fuego" -d " "
+  867  cut --help 
+  868  cut -c "prueba de fuego" -d " "
+  869  clear
+  870  cut -c "prueba de fuego"
+  871  cut  "prueba de fuego"
   872  clear
-  873  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
-  874  cd ..
-  875  cd h
-  876  cd datos_csv/
-  877  lcear
-  878  clear
-  879  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 $3 $4 $5}' | head
-  880  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
-  881  clear
-  882  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  873  echo "prueba de fuego" | cut -d " "
+  874  echo "prueba de fuego" | cut -d "d"
+  875  echo "prueba de fuego" | cut -d "d" -f1
+  876  echo "prueba de fuego" | cut -d "d" -f
+  877  echo "prueba de fuego" | cut -d "d"
+  878  echo "prueba de fuego" | cut -d "d" -f
+  879  echo "prueba de fuego" | cut -d "d" -f1
+  880  clear
+  881  echo "prueba de fuego" | cut -d " " -f1
+  882  cut --help 
   883  clear
-  884  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  884  file ../problema2/bills01_2012.xls 
   885  clear
-  886  git status 
+  886  file ../problema2/bills01_2012.xls 
   887  clear
-  888  git status 
-  889  git remote -v
-  890  git push -u TareaNivel2 master 
-  891  clear
-  892  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head
-  893  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep 2
-  894  clear
-  895  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v sensor
-  896  clear
-  897  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
-  898  cat datos-0.scv  | awk -F "\",\"" '{print $1 $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
-  899  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
-  900  clear
-  901  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | head | grep -v Sensor
-  902  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor
-  903  clear
-  904  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed `1,$ s/"//g`
-  905  clear
-  906  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g'
-  907  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' | head
-  908  clear
-  909  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g'
-  910  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' head
-  911  clear
-  912  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' | head
-  913  car datos-0.scv 
-  914  cat datos-0.scv 
-  915  clear
-  916  cat datos-0.scv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | grep -v Sensor | sed '1,$ s/"//g' | head
+  888  echo bills01_2012.xls cut -d "0" -f2
+  889  echo bills01_2012.xls | cut -d "0" -f2
+  890  echo bills01_2012.xls | cut -d "0" -d "_" -f2
+  891  echo bills01_2012.xls | cut -d "0" -d "_" -f1
+  892  echo bills01_2012.xls | cut -d "0" -d "_" -f
+  893  clear
+  894  echo bills01_2012.xls | cut -d "0" -d "_" -f1
+  895  echo bills01_2012.xls | cut -d "0"
+  896  echo bills01_2012.xls | cut -d "0" -f1
+  897  echo bills01_2012.xls | cut -d "0" -f2
+  898  echo bills01_2012.xls | cut -d "0" -f2 | cut -d "_" -f1
+  899  echo bills02_2012.xls | cut -d "0" -f2 | cut -d "_" -f1
+  900  "prueba de fuego "| cut -d "0" -f2 | cut -d "_" -f1
+  901  "prueba de fuego" | cut -d "0" -f2 | cut -d "_" -f1
+  902  vim ./problema2.sh
+  903  bash ./problema2.sh
+  904  vim ./problema2.sh
+  905  bash ./problema2.sh
+  906  clear
+  907  vim ./problema2.sh
+  908  bash ./problema2.sh
+  909  vim ./problema2.sh
+  910  bash ./problema2.sh
+  911  vim ./problema2.sh
+  912  bash ./problema2.sh
+  913  clear
+  914  vim ./problema2.sh
+  915  bash ./problema2.sh
+  916  wq
   917  clear
-  918  cd ../..
-  919  clear
-  920  ls
-  921  cd src/
-  922  bash graficar.sh 
-  923  vim graficar.sh 
-  924  clear
-  925  git status 
-  926  git add .
-  927  git status 
-  928  git commit -m "finalizacion de clase"
-  929  clear
-  930  cd ../..
-  931  ls
-  932  cd history/
-  933  history > history 
+  918  bash ./problema2.sh
+  919  vim ./problema2.sh
+  920  bash ./problema2.sh
+  921  clear
+  922  vim ./problema2.sh
+  923  bash ./problema2.sh
+  924  vim ./problema2.sh
+  925  bash ./problema2.sh
+  926  clear
+  927  vim ./problema2.sh
+  928  bash ./problema2.sh
+  929  wq
+  930  clear
+  931  bash ./problema2.sh
+  932  vim ./problema2.sh
+  933  bash ./problema2.sh
+  934  vim ./problema2.sh
+  935  bash ./problema2.sh
+  936  clear
+  937  bash ./problema2.sh
+  938  vim ./problema2.sh
+  939  bash ./problema2.sh
+  940  clear
+  941  vim ./problema2.sh
+  942  bash ./problema2.sh
+  943  vim ./problema2.sh
+  944  bash ./problema2.sh
+  945  clear
+  946  vim ./problema2.sh
+  947  bash ./problema2.sh
+  948  vim ./problema2.sh
+  949  bash ./problema2.sh
+  950  vim ./problema2.sh
+  951  bash ./problema2.sh
+  952  clear
+  953  vim ./problema2.sh
+  954  bash ./problema2.sh
+  955  vim ./problema2.sh
+  956  bash ./problema2.sh
+  957  clear
+  958  bash ./problema2.sh
+  959  vim ./problema2.sh
+  960  bash ./problema2.sh
+  961  vim ./problema2.sh
+  962  bash ./problema2.sh
+  963  vim ./problema2.sh
+  964  clear
+  965  vim ./problema2.sh
+  966  bash ./problema2.sh
+  967  wq
+  968  clear
+  969  bash ./problema2.sh
+  970  vim ./problema2.sh
+  971  bash ./problema2.sh
+  972  clear
+  973  tree ../
+  974  clear
+  975  less ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv 
+  976  less ../hojasdeexcel/hojasdatos/datos_csv/datos-0.out 
+  977  less ../problema2/Datos_csv/ 
+  978  less ../problema2/Datos_csv/datos-1.csv 
+  979  less ../hojasdeexcel/hojasdatos/datos_csv/datos-0.out 
+  980  less ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv 
+  981  clear
+  982  cat ../problema2/Datos_csv/datos-1.csv | grep luz
+  983  cat ../problema2/Datos_csv/datos-1.csv
+  984  less ../problema2/Datos_csv/datos-1.csv
+  985  clear
+  986  cat ../problema2/Datos_csv/datos-1.csv | grep Luz
+  987  clear
+  988  cat ../problema2/Datos_csv/datos-1.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor | sed '1,$ s/"//g' > $SALIDA_DATOS/datos-$M.out
+  989  cat ../problema2/Datos_csv/datos-1.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor | sed '1,$ s/"//g'
+  990  clear
+  991  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor | sed '1,$ s/"//g'
+  992  clear
+  993  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor
+  994  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Se
+  995  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor
+  996  clear
+  997  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor
+  998  cat ../problema2/Datos_csv/datos-1.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor | sed '1,$ s/"//g'
+  999  cat ../problema2/Datos_csv/datos-1.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}'
+ 1000  clear
+ 1001  cat ../problema2/Datos_csv/datos-1.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}'
+ 1002  less ../problema2/Datos_csv/datos-1.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}'
+ 1003  clear
+ 1004  cat ../problema2/Datos_csv/datos-1.csv  | grep Luz
+ 1005  cat ../problema2/Datos_csv/datos-1.csv  | grep Luz cut -d "," -f2
+ 1006  cat ../problema2/Datos_csv/datos-1.csv  | grep | Luz cut -d "," -f2
+ 1007  clear
+ 1008  cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2
+ 1009  clear
+ 1010  cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2
+ 1011  cat "prueba" ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2
+ 1012  cat echo "prueba" ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2
+ 1013  echo "prueba" cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2
+ 1014  echo "prueba" cat ../problema2/Datos_csv/datos-1.csv  | grep Luz 
+ 1015  echo "prueba `:|}{\][';/.,<>?+_)(*&^%$#@!~~~cat ../problema2/Datos_csv/datos-1.csv
+ 1016  clear
+ 1017  vim problema2.sh 
+ 1018  cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2
+ 1019  echo `cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2`
+ 1020  echo "prueba `cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2`"
+ 1021  clear
+ 1022  echo "prueba `cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2`"
+ 1023  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor | sed '1,$ s/"//g'
+ 1024  clear
+ 1025  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor |
+ 1026  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor
+ 1027  clear
+ 1028  cat ../hojasdeexcel/hojasdatos/datos_csv/datos-0.csv  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor | sed '1,$ s/"//g'cat $archivo  | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " "  $5}' | grep -v Sensor | sed '1,$ s/"//g' > $SALIDA_DATOS/datos-$M.ou
+ 1029  clera
+ 1030  | sed '1,$ s/"//g'
+ 1031  clear
+ 1032  echo "prueba `cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2`"
+ 1033  echo "prueba `cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2`" | sed '1,$ s/"//g'
+ 1034  clear
+ 1035  echo "prueba `cat ../problema2/Datos_csv/datos-1.csv  | grep Luz | cut -d "," -f2`" | sed '1,$ s/"//g'
+ 1036  less ../problema2/Datos_csv/datos-1.csv 
+ 1037  clear
+ 1038  less ../problema2/Datos_csv/datos-1.csv 
+ 1039  vim problema2.sh 
+ 1040  bash ./problema2.sh 
+ 1041  clear
+ 1042  vim ./problema2.sh 
+ 1043  less ../problema2/Datos_csv/datos-1.csv 
+ 1044  echo "prueba `cat ../problema2/Datos_csv/datos  | grep Luz | cut -d "," -f2`" | sed '1,$ s/"//g'
+ 1045  echo "prueba `cat ../problema2/Datos_csv/datos-1.csv | grep Luz | cut -d "," -f2`" | sed '1,$ s/"//g'
+ 1046  clear
+ 1047  echo "prueba `cat ../problema2/Datos_csv/datos-1.csv | grep Luz | cut -d "," -f2`" | sed '1,$ s/"//g'
+ 1048  echo "prueba `cat ../problema2/Datos_csv/datos-2.csv | grep Luz | cut -d "," -f2`" | sed '1,$ s/"//g'
+ 1049  echo "prueba `cat ../problema2/Datos_csv/datos-3.csv | grep Luz | cut -d "," -f2`" | sed '1,$ s/"
+ 1050  clear
+ 1051  vim ./problema2.sh 
+ 1052  bash ./problema2.sh 
+ 1053  clear
+ 1054  vim ./problema2.sh 
+ 1055  bash ./problema2.sh 
+ 1056  bash ./problema2.sh clear
+ 1057  clear
+ 1058  vim ./problema2.sh 
+ 1059  bash ./problema2.sh clear
+ 1060  clear
+ 1061  vim ./problema2.sh 
+ 1062  bash ./problema2.sh clear
+ 1063  vim ./problema2.sh 
+ 1064  clear
+ 1065  bash ./problema2.sh
+ 1066  clear
+ 1067  vim ./problema2.sh 
+ 1068  bash ./problema2.sh
+ 1069  clear
+ 1070  vim ./problema2.sh 
+ 1071  bash ./problema2.sh
+ 1072  vim ./problema2.sh 
+ 1073  bash ./problema2.sh
+ 1074  clear
+ 1075  vim ./problema2.sh 
+ 1076  bash ./problema2.sh
+ 1077  clear
+ 1078  vim ./problema2.sh 
+ 1079  bash ./problema2.sh
+ 1080  clear
+ 1081  vim ./problema2.sh 
+ 1082  bash ./problema2.sh
+ 1083  vim ./problema2.sh 
+ 1084  bash ./problema2.sh
+ 1085  clear
+ 1086  vim ./problema2.sh 
+ 1087  bash ./problema2.sh
+ 1088  ../ tree
+ 1089  tree ../
+ 1090  vim ./problema2.sh 
+ 1091  bash ./problema2.sh
+ 1092  tree ../
+ 1093  clear
+ 1094  vim ./problema2.sh 
+ 1095  bash ./problema2.sh
+ 1096  tree ../
+ 1097  clear
+ 1098  vim ./problema2.sh 
+ 1099  bash ./problema2.sh
+ 1100  vim ./problema2.sh 
+ 1101  bash ./problema2.sh
+ 1102  cd ..
+ 1103  cd problema2/Datos_csv/
+ 1104  ls
+ 1105  less datos-1.out 
+ 1106  vim ./problema2.sh 
+ 1107  clear
+ 1108  cd ..
+ 1109  cd src/
+ 1110  clear
+ 1111  vim ./problema2.sh 
+ 1112  bash ./problema2.sh
+ 1113  vim ./problema2.sh 
+ 1114  bash ./problema2.sh
+ 1115  vim ./problema2.sh 
+ 1116  bash ./problema2.sh
+ 1117  clear
+ 1118  tree ..
+ 1119  clear
+ 1120  tree ../problema2
+ 1121  vim ./problema2.sh 
+ 1122  bash ./problema2.sh
+ 1123  tree ../problema2
+ 1124  clear
+ 1125  vim ./problema2.sh 
+ 1126  bash ./problema2.sh
+ 1127  clear
+ 1128  vim ./problema2.sh 
+ 1129  bash ./problema2.sh
+ 1130  vim ./problema2.sh 
+ 1131  bash ./problema2.sh
+ 1132  vim ./problema2.sh 
+ 1133  bash ./problema2.sh
+ 1134  vim ./problema2.sh 
+ 1135  bash ./problema2.sh
+ 1136  vim ./problema2.sh 
+ 1137  bash ./problema2.sh
+ 1138  vim ./problema2.sh 
+ 1139  bash ./problema2.sh
+ 1140  vim ./problema2.sh 
+ 1141  bash ./problema2.sh
+ 1142  vim ./problema2.sh 
+ 1143  bash ./problema2.sh
+ 1144  vim ./problema2.sh 
+ 1145  bash ./problema2.sh
+ 1146  vim ./problema2.sh 
+ 1147  bash ./problema2.sh
+ 1148  vim ./problema2.sh 
+ 1149  bash ./problema2.sh
+ 1150  vim ./problema2.sh 
+ 1151  bash ./problema2.sh
+ 1152  vim ./problema2.sh 
+ 1153  bash ./problema2.sh
+ 1154  vim ./problema2.sh 
+ 1155  bash ./problema2.sh
+ 1156  vim ./problema2.sh 
+ 1157  bash ./problema2.sh
+ 1158  vim ./problema2.sh 
+ 1159  bash ./problema2.sh
+ 1160  clear
+ 1161  vim ./problema2.sh 
+ 1162  bash ./problema2.sh
+ 1163  vim ./problema2.sh 
+ 1164  bash ./problema2.sh
+ 1165  vim ./problema2.sh 
+ 1166  bash ./problema2.sh
+ 1167  vim ./problema2.sh 
+ 1168  bash ./problema2.sh
+ 1169  vim ./problema2.sh 
+ 1170  bash ./problema2.sh
+ 1171  vim ./problema2.sh 
+ 1172  bash ./problema2.sh
+ 1173  vim ./problema2.sh 
+ 1174  bash ./problema2.sh
+ 1175  vim ./problema2.sh 
+ 1176  bash ./problema2.sh
+ 1177  vim ./problema2.sh 
+ 1178  bash ./problema2.sh
+ 1179  vim ./problema2.sh 
+ 1180  bash ./problema2.sh
+ 1181  vim ./problema2.sh 
+ 1182  bash ./problema2.sh
+ 1183  vim ./problema2.sh 
+ 1184  bash ./problema2.sh
+ 1185  vim ./problema2.sh 
+ 1186  bash ./problema2.sh
+ 1187  vim ./problema2.sh 
+ 1188  bash ./problema2.sh
+ 1189  vim ./problema2.sh 
+ 1190  bash ./problema2.sh
+ 1191  vim ./problema2.sh 
+ 1192  bash ./problema2.sh
+ 1193  vim ./problema2.sh 
+ 1194  bash ./problema2.sh
+ 1195  vim ./problema2.sh 
+ 1196  bash ./problema2.sh
+ 1197  vim ./problema2.sh 
+ 1198  bash ./problema2.sh
+ 1199  vim ./problema2.sh 
+ 1200  bash ./problema2.sh
+ 1201  vim ./problema2.sh 
+ 1202  bash ./problema2.sh
+ 1203  vim ./problema2.sh 
+ 1204  bash ./problema2.sh
+ 1205  bash ./problema2.shclear
+ 1206  clear
+ 1207  bash ./problema2.shclear
+ 1208  bash ./problema2.sh
+ 1209  clear
+ 1210  vim ./problema2.sh 
+ 1211  bash ./problema2.sh
+ 1212  clear
+ 1213  vim ./problema2.sh 
+ 1214  bash ./problema2.sh
+ 1215  clear
+ 1216  vim ./problema2.sh 
+ 1217  bash ./problema2.sh
+ 1218  clear
+ 1219  vim ./problema2.sh 
+ 1220  bash ./problema2.sh
+ 1221  vim ./problema2.sh 
+ 1222  bash ./problema2.sh
+ 1223  vim ./problema2.sh 
+ 1224  bash ./problema2.sh
+ 1225  vim ./problema2.sh 
+ 1226  bash ./problema2.sh
+ 1227  vim ./problema2.sh 
+ 1228  bash ./problema2.sh
+ 1229  vim ./problema2.sh 
+ 1230  bash ./problema2.sh
+ 1231  vim ./problema2.sh 
+ 1232  bash ./problema2.sh
+ 1233  vim ./problema2.sh 
+ 1234  clear
+ 1235  vim ./problema2.sh 
+ 1236  echo "./problema2/Datos" | cut -d "." -f1`
+ 1237  echo "./problema2/Datos
+ 1238  echo "./problema2/Datos/datos" | cut -d "." -f1`
+ 1239  clear
+ 1240  vim ./problema2.sh 
+ 1241  echo "./problema2/Datos/datos-1.csv" | cut -d "." -f1`
+ 1242  echo "./problema2/Datos/datos-1.csv" | cut -d "." -f1
+ 1243  clear
+ 1244  echo "./problema2/Datos/datos-1.csv"
+ 1245  echo "./problema2/Datos/datos-1.csv" | cut -d "-" -f2
+ 1246  echo "./problema2/Datos/datos-1.csv" | cut -d "-" -f2 | cut -d "." -f1
+ 1247  vim ./problema2.sh 
+ 1248  bash ./problema2.sh 
+ 1249  vim ./problema2.sh 
+ 1250  bash ./problema2.sh 
+ 1251  vim ./problema2.sh 
+ 1252  bash ./problema2.sh 
+ 1253  vim ./problema2.sh 
+ 1254  bash ./problema2.sh 
+ 1255  vim ./problema2.sh 
+ 1256  bash ./problema2.sh 
+ 1257  vim ./problema2.sh 
+ 1258  bash ./problema2.sh 
+ 1259  vim ./problema2.sh 
+ 1260  bash ./problema2.sh 
+ 1261  vim ./problema2.sh 
+ 1262  bash ./problema2.sh 
+ 1263  vim ./problema2.sh 
+ 1264  bash ./problema2.sh 
+ 1265  vim ./problema2.sh 
+ 1266  bash ./problema2.sh 
+ 1267  vim ./problema2.sh 
+ 1268  bash ./problema2.sh 
+ 1269  vim ./problema2.sh 
+ 1270  bash ./problema2.sh 
+ 1271  vim ./problema2.sh 
+ 1272  bash ./problema2.sh 
+ 1273  vim ./problema2.sh 
+ 1274  bash ./problema2.sh 
+ 1275  vim ./problema2.sh 
+ 1276  find $SALIDA_DATOS -name "*.csv"
+ 1277  find ./prublema2/datos -name "*.csv"
+ 1278  clear
+ 1279  find ./problema2/datos -name "*.csv"
+ 1280  pwd
+ 1281  clear
+ 1282  find ./problema2/ -name "*.csv"
+ 1283  find 
+ 1284  find ../problema2/datos -name "*.csv"
+ 1285  find ../problema2/
+ 1286  find ../problema2/Datos_csv/
+ 1287  find ../problema2/Datos_csv -name "*.csv"
+ 1288  find ../problema2/Datos_csv
+ 1289  find ../problema2/Datos_csv -name "*.csv"
+ 1290  bash ./problema2.sh 
+ 1291  find ../problema2/Datos_csv -name "*.csv"
+ 1292  find ../problema2/Datos_csv -name "*.csv" | sort
+ 1293  clear
+ 1294  vim ./problema2.sh 
+ 1295  bash ./problema2.sh 
+ 1296  vim ./problema2.sh 
+ 1297  bash ./problema2.sh 
+ 1298  vim ./problema2.sh 
+ 1299  bash ./problema2.sh 
+ 1300  vim ./problema2.sh 
+ 1301  bash ./problema2.sh 
+ 1302  clear
+ 1303  bash ./problema2.sh 
+ 1304  cd ..
+ 1305  cd hojasdeexcel/src/
+ 1306  bash ./graficar.sh 
+ 1307  clear
+ 1308  cd ..
+ 1309  cd src/
+ 1310  clear
+ 1311  vin ./problema2.sh 
+ 1312  vim ./problema2.sh 
+ 1313  bash ./graficar.sh 
+ 1314  vim ./problema2.sh 
+ 1315  bash ./graficar.sh 
+ 1316  mkdir ./Graficos
+ 1317  ls
+ 1318  rm Graficos/
+ 1319  vim ./problema2.sh 
+ 1320  bash ./graficar.sh 
+ 1321  vim ./problema2.sh 
+ 1322  bash ./graficar.sh 
+ 1323  vim ./problema2.sh 
+ 1324  bash ./graficar.sh 
+ 1325  ls
+ 1326  clear
+ 1327  ls
+ 1328  clear
+ 1329  vim ./problema2.sh 
+ 1330  bash ./problema2.sh 
+ 1331  vim ./problema2.sh 
+ 1332  bash ./problema2.sh 
+ 1333  clera
+ 1334  clear
+ 1335  vim ./problema2.sh 
+ 1336  bash ./problema2.sh 
+ 1337  clear
+ 1338  vim ./problema2.sh 
+ 1339  bash ./problema2.sh 
+ 1340  vim ./problema2.sh 
+ 1341  bash ./problema2.sh 
+ 1342  clear
+ 1343  vim ./problema2.sh 
+ 1344  clear
+ 1345  vim ./problema2.sh 
+ 1346  bash ./problema2.sh 
+ 1347  clear
+ 1348  vim ./problema2.sh 
+ 1349  clear
+ 1350  bash ./problema2.sh 
+ 1351  clear
+ 1352  vim ./problema2.sh 
+ 1353  bash ./problema2.sh 
+ 1354  cd ..
+ 1355  ls
+ 1356  clear
+ 1357  git status 
+ 1358  git add *
+ 1359  git status 
+ 1360  clear
+ 1361  git commit -m "Script de problema 1 finalizado"
+ 1362  git push 
+ 1363  git push ProyectoFinal 
+ 1364  clear
+ 1365  exit
+ 1366  cd Documents/
+ 1367  cd Proyecto/
+ 1368  cd TareaLinuxN2/
+ 1369  clear
+ 1370  tree 
+ 1371  history
+ 1372  clear
+ 1373  history > history/history 
